@@ -1,0 +1,64 @@
+*
+{
+  margin: 0;
+  padding: 0; 
+}
+
+
+banner
+{
+  display: block;
+  background-color: #020242;
+  color: white;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 5vw;
+}
+
+page
+{
+  display: flex;
+  flex-direction: row; /* Arrange children in a column */
+  height: 100vh; 
+}
+
+body
+{
+  margin: 0;
+  padding: 0;
+  height: 100vh; 
+}
+
+.column {
+  flex: 8; 
+}
+
+nav.column
+{
+  background-color: #030375;
+  color: white;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+router
+{
+  height: 50vh;
+
+}
+
+nav ul
+{
+  list-style-type: none;
+  padding: 0;
+}
+nav a
+{
+  color: white;
+  text-decoration: none;
+}
