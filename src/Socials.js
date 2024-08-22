@@ -1,15 +1,18 @@
-
+import './Socials.css'
+import LinkedInPNG from './assets/linkdin.png'
 
 export function Socials()
 {
     return(
-        <div>
+        <div class='socials'>
             <h1>Socials</h1>
             <ul>
-                <li>Instagram</li>
-                <li>Twitter</li>
-                <li>Facebook</li>
-                <li>LinkedIn</li>
+                <li>
+                    <a href='https://www.linkedin.com/in/stonestreet/'>
+                        <img src={LinkedInPNG} alt='Linkin'/>
+                    </a>
+                </li>
+                <li><h5>(Only social media im active on)</h5></li>
             </ul>
         </div>
     );

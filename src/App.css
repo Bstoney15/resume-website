@@ -38,12 +38,13 @@ body
 
 nav.column
 {
-  background-color: #030375;
+  background-color: #020263;
   color: white;
   flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }
 
 router
@@ -55,10 +56,26 @@ router
 nav ul
 {
   list-style-type: none;
-  padding: 0;
 }
-nav a
+
+
+nav li
+{
+  padding-top: 20px;
+  padding-bottom: 5px; 
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+
+nav li a
 {
   color: white;
   text-decoration: none;
+  font-size: large;
+}
+
+nav a:hover
+{
+  color: #4ab0fe;
 }
